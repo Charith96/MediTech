@@ -1,0 +1,263 @@
+.App {
+	width: 100vw;
+	height: 100vh;
+}
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+	background-color: #4D97FB;
+	position: relative;
+}
+
+.Sidebar {
+	width: 240px;
+	margin-top: 220px;
+}
+
+.SidebarList {
+	height: auto;
+	padding: 0;
+	width: 100%;
+	font-family: "Poppins", sans-serif;
+	list-style-type: none;
+}
+
+.SidebarList .row {
+	width: 100%;
+	height: 40px;
+	list-style-type: none;
+	margin: 0%;
+	color: #272727;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-left: 0px;
+	text-decoration: none;
+}
+
+.SidebarList .row:hover {
+	cursor: pointer;
+	background-color: #f6faff;
+	border-radius: 0 30px 30px 0;
+}
+
+.active-nav{
+	background-color: #f6faff;
+	border-radius: 0 30px 30px 0;
+}
+
+.SidebarList #active {
+	background-color: #f6faff;
+	border-radius: 0 30px 30px 0;
+}
+
+/* main transparent view */
+.MainContainer {
+	position: absolute;
+	margin: auto;
+	width: 1140px;
+	height: 560px;
+	right: 80px;
+	left: 80px;
+	top: 80px;
+	bottom: 80px;
+	background: rgba(255, 255, 255, 0.51);
+	border-radius: 40px;
+}
+
+.SideContainer {
+	position: absolute;
+	width: 240px;
+	height: 560px;
+	right: 80px;
+	left: 124px;
+	top: 53px;
+	bottom: 80px;
+	background: rgba(255, 255, 255, 0.68);
+	backdrop-filter: blur(5px);
+	border-radius: 40px 0px 0px 40px;
+}
+
+.containermini {
+	position: absolute;
+	width: 240px;
+	height: 560px;
+	right: 80px;
+	left: 0;
+	top: 0;
+	bottom: 80px;
+	background: rgba(255, 255, 255, 0.68);
+	backdrop-filter: blur(5px);
+	border-radius: 40px 0px 0px 40px;
+}
+
+.logo {
+	position: absolute;
+	width: 155.05px;
+	height: 44px;
+	left: 42px;
+	top: 40px;
+}
+
+.user {
+	position: absolute;
+	width: 104px;
+	height: 104px;
+	left: 67px;
+	top: 106px;
+}
+
+.logout {
+	position: absolute;
+	width: 21.75px;
+	height: 27.6px;
+	left: 110px;
+	top: 520px;
+}
+
+.homebox1{
+	position: absolute;
+  width: 330px;
+  height: 480px;
+  left: 289px;
+  top: 42px;
+  background: rgba(255, 255, 255, 0.68);
+  border-radius: 40px;
+}
+
+.homebox2 {
+  position: absolute;
+  width: 450px;
+  height: 344.18px;
+  left: 653px;
+  top: 42px;
+  background: rgba(255, 255, 255, 0.68);
+  border-radius: 30px;
+}
+
+.homebox3{
+	position: absolute;
+  width: 220px;
+  height: 120px;
+  left: 653px;
+  top: 292px;
+  background: rgba(255, 255, 255, 0.68);
+  border-radius: 30px;
+  margin-top:110px;
+}
+
+.homebox4{
+	position: absolute;
+  width: 220px;
+  height: 120px;
+  left: 883px;
+  top: 292px;
+  background: rgba(255, 255, 255, 0.68);
+  border-radius: 30px;
+  margin-top:110px;
+}
+
+.homeVector{
+  margin-left: 35px;
+  width: 285.01px;
+  height: 289px;
+  left: 25px;
+  top: 11px;
+
+}
+
+.welcm-name{
+  text-align: center;
+  font-size: 25px;
+  color: #125465;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.font-link{
+  font-family: Poppins;
+}
+
+.homebox1 p1 {
+	position: absolute;
+  width: 253px;
+  height: 60px;
+  left: 41px;
+  top: 335px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  color: black;
+
+}
+
+.homebox3 p2 {
+  position: absolute;
+  margin-top: 15px;
+  margin-left: 20px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 26px;
+  text-align: center;
+  color: #125465;
+}
+
+.homebox4 p3 {
+  position: absolute;
+  margin-top: 15px;
+  margin-left: 15px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 26px;
+  text-align: center;
+  color: #125465;
+
+}
+
+.homebox4 p4 {
+  margin-top: 65px;
+  margin-left: 65px;
+  position: absolute;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 55px;
+  line-height: 26px;
+  text-align: center;
+  color: #125465;
+
+}
+
+.homebox3 p5 {
+  margin-top: 65px;
+  margin-left: 65px;
+  position: absolute;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 55px;
+  line-height: 26px;
+  text-align: center;
+  color: #125465;
+
+}

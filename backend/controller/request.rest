@@ -1,0 +1,41 @@
+
+## display all assigns
+GET http://localhost:5000/assigns
+
+### Create assign
+
+POST http://localhost:5000/assigns/add
+Content-Type: application/json
+
+
+{
+    "invoiceid":10030,
+    "nic":"956487564V",
+    "date":"2021-09-08",
+    "porterid":"P008"
+}
+
+
+### Get assign by id
+
+GET http://localhost:5000/assigns/2
+
+
+
+### update existing assing by id
+PUT http://localhost:5000/assigns/update/2
+Content-Type: application/json
+
+
+{
+    "invoiceid":10028,
+    "nic":"956487123V",
+    "date":"2021-09-07",
+    "porterid":"P010"
+}
+
+
+### Delete exisiting assign
+DELETE  http://localhost:5000/assigns/delete/3
+
+

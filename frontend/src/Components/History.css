@@ -1,0 +1,48 @@
+/*back btn*/
+a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+}
+
+#previousbtn:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#previousbtn{
+  font-size: 20px;
+  background-color: #125465;
+  color: white;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin-top: 30px;
+  margin-left: 40px;
+
+}
+
+
+.mainminicontainer{
+	position: absolute;
+  width: 800px;
+  height: 480px;
+  left: 289px;
+  top: 42px;
+  background: rgba(255, 255, 255, 0.68);
+  border-radius: 40px;
+}
+
+#historytitle {
+  position: absolute;
+  margin-top: 40px;
+  margin-left: 100px;
+  font-family: "Poppins", sans-serif;
+  font-style: bold;
+  font-weight: 500;
+  font-size: 54px;
+  line-height: 26px;
+  text-align: center;
+  color: #125465;
+  }
+
